@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="宋思琪｜视觉感知、持续学习与具身智能方向 AI 算法研究者。">
+  <meta name="theme-color" content="#0a0b0f">
+  <title>宋思琪 · AI / Computer Vision</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0b0f'/%3E%3Cpath d='M17 20c3-5 8-8 15-8 7 0 12 3 15 8l-7 4c-2-3-4-4-8-4s-6 1-7 3c-1 2 0 4 4 5l7 2c9 3 13 8 11 15-2 7-8 11-16 11-8 0-14-3-18-10l8-4c2 4 5 6 10 6 4 0 7-1 8-4 1-2-1-4-5-5l-7-2c-9-3-13-10-10-17z' fill='%236f7cff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="monogram" href="#top" aria-label="返回首页">SS<span>.</span></a>
+    <nav aria-label="页面导航">
+      <a href="#work">研究</a>
+      <a href="#smartseg">落地</a>
+      <a href="#experience">经历</a>
+    </nav>
+    <a class="header-link" href="mailto:siqi_song@outlook.com">Let's talk <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE · DEC 2026</p>
+        <h1>Building vision systems<br>that <em>learn</em>, <em>adapt</em><br>and <em>ship</em>.</h1>
+        <p class="hero-cn">视觉感知 · 持续适应 · 具身操作</p>
+        <p class="hero-intro">我是宋思琪，人工智能与计算机视觉博士。研究从交互式分割与持续学习出发，正在延伸至 3D 可供性感知与长程机器人操作；也把算法做成真实团队可使用的产品。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">查看代表成果 <span>↓</span></a>
+          <a class="button button-ghost" href="assets/Song-Siqi-Resume-2026.docx" download>下载简历</a>
+        </div>
+      </div>
+
+      <div class="portrait-stage reveal delay-1">
+        <div class="portrait-frame">
+          <img src="assets/siqi-song.jpg" alt="宋思琪个人照片">
+          <div class="portrait-scan" aria-hidden="true"></div>
+        </div>
+        <div class="portrait-label">
+          <strong>Siqi Song</strong>
+          <span>AI / Computer Vision Researcher</span>
+        </div>
+        <div class="orbit-label orbit-a">01 · PERCEPTION</div>
+        <div class="orbit-label orbit-b">02 · ADAPTATION</div>
+        <div class="orbit-label orbit-c">03 · EMBODIMENT</div>
+      </div>
+
+      <div class="hero-metrics reveal delay-2" aria-label="核心概览">
+        <div><strong>4</strong><span>篇第一作者成果<br>含已发表与在投</span></div>
+        <div><strong>A + Q1</strong><span>CCF-A 会议<br>中科院一区期刊</span></div>
+        <div><strong>10+</strong><span>软件与 AI 项目<br>交付经验</span></div>
+      </div>
+    </section>
+
+    <section class="research section-shell" id="work">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED RESEARCH · 2025—2027</p>
+        <h2>让模型在变化中<br><span>保持有效。</span></h2>
+        <p>从一次点击，到新类别与新场景，再到机器人长程任务：我的研究关注模型如何处理不断变化的证据。</p>
+      </div>
+
+      <div class="paper-list">
+        <article class="paper-row reveal">
+          <div class="paper-index">01</div>
+          <div class="paper-title"><h3>DiffClick</h3><p>Click-Differentiated Enhancement</p></div>
+          <div class="paper-copy">区分正负点击的语义角色，强化交互式分割中的前景与背景证据；在无负点击设置下，四个基准所需点击数降低 <strong>3.4%—14.0%</strong>。</div>
+          <div class="paper-meta"><span>Pattern Recognition</span><span>2026 · Q1 TOP</span></div>
+        </article>
+        <article class="paper-row reveal">
+          <div class="paper-index">02</div>
+          <div class="paper-title"><h3>SDP</h3><p>Spectral-Decomposed Prompting</p></div>
+          <div class="paper-copy">以频谱分解构造任务感知提示，缓解持续学习中的风格干扰；在三个分类基准上较次优方法提升 <strong>0.55—1.14 个百分点</strong>。</div>
+          <div class="paper-meta"><span>ACM Multimedia</span><span>2025 · CCF-A</span></div>
+        </article>
+        <article class="paper-row reveal">
+          <div class="paper-index">03</div>
+          <div class="paper-title"><h3>SASA</h3><p>Semantic × Spatial Adaptation</p></div>
+          <div class="paper-copy">以语义锚点与空间适应解耦持续全景分割，在 ADE20K 增量协议中以少量可训练参数带来约 <strong>3 个百分点</strong>提升。</div>
+          <div class="paper-meta"><span>IEEE TAI</span><span>Under review</span></div>
+        </article>
+        <article class="paper-row reveal">
+          <div class="paper-index">04</div>
+          <div class="paper-title"><h3>MIGA</h3><p>Multi-Granular VLM Adaptation</p></div>
+          <div class="paper-copy">从类别、概念与属性三个层级校正 CLIP 预测，并以累计岭回归保留历史统计，在 <strong>5 个基准、6 种协议</strong>上进行验证。</div>
+          <div class="paper-meta"><span>AAAI-27</span><span>Submitted</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="smartseg section-shell" id="smartseg">
+      <div class="smartseg-visual reveal">
+        <img src="assets/smartseg-concept.png" alt="SmartSeg 交互分割与持续适应概念视觉">
+        <div class="visual-caption"><span>CONCEPT VISUAL</span><span>Interactive segmentation · continual adaptation</span></div>
+      </div>
+      <div class="smartseg-copy reveal delay-1">
+        <p class="eyebrow">FROM RESEARCH TO PRODUCT</p>
+        <h2>SmartSeg<span>®</span></h2>
+        <p class="lede">把交互式分割与持续学习，转化为面向真实业务的连续标注能力。</p>
+        <div class="smartseg-flow" aria-label="SmartSeg 工作闭环">
+          <div><span>01</span><strong>Human cue</strong><small>点击纠错</small></div>
+          <i>→</i>
+          <div><span>02</span><strong>Model refine</strong><small>目标掩码</small></div>
+          <i>→</i>
+          <div><span>03</span><strong>Hard case loop</strong><small>持续适应</small></div>
+        </div>
+        <ul>
+          <li>负责算法与产品方案，覆盖医疗影像、工业质检与电商素材标注</li>
+          <li>连接模型训练、交互流程、难例闭环与产品交付</li>
+          <li>保留通用基础模型用于冷启动与候选区域的开放选项</li>
+        </ul>
+        <div class="impact-grid">
+          <div><strong>50%+</strong><span>点击量降低</span></div>
+          <div><strong>3×</strong><span>标注效率提升</span></div>
+          <p>项目阶段性统计</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="frontier section-shell">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow">CURRENT FRONTIER · IN PROGRESS</p>
+        <h2>从看见可操作区域，<br><span>到完成长程任务。</span></h2>
+      </div>
+      <div class="frontier-grid">
+        <article class="frontier-card reveal">
+          <p class="card-kicker">3D AFFORDANCE</p>
+          <h3>语言引导的可交互部位感知</h3>
+          <p>给定点云与复杂语言指令，联合推理动作顺序、部件空间关系与可交互区域；重点处理掩码重复、部件交换和边界溢出。</p>
+          <div class="mini-pipeline"><span>Point cloud</span><b>+</b><span>Instruction</span><b>→</b><span>Action region</span></div>
+        </article>
+        <article class="frontier-card accent reveal delay-1">
+          <p class="card-kicker">EMBODIED VLA</p>
+          <h3>试管多物体转移与自适应放置</h3>
+          <p>基于 SmolVLA 与 Flow Matching，研究视觉、执行历史与关系信息如何共同支持抓取、运输、精细插入和重复操作。</p>
+          <div class="mini-pipeline"><span>Observe</span><b>→</b><span>Act</span><b>→</b><span>Re-plan</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section-shell" id="experience">
+      <div class="section-heading compact reveal">
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>研究深度，<br><span>也懂交付。</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><time>2024—2026</time><div><h3>AI 算法 / 产品技术顾问</h3><p>苏州英特雷真智能科技 · 校企合作</p></div><span>SmartSeg · Service Robot</span></article>
+        <article class="timeline-item reveal"><time>2019—2023</time><div><h3>软件项目经理</h3><p>挪威船级社 DNV</p></div><span>10+ Projects · NDT.AI</span></article>
+        <article class="timeline-item reveal"><time>2017—2018</time><div><h3>全栈开发实习生</h3><p>挪威船级社 DNV</p></div><span>React · 400+ Clients</span></article>
+      </div>
+    </section>
+
+    <section class="contact section-shell reveal">
+      <p class="eyebrow">OPEN TO AI / CV / EMBODIED PERCEPTION ROLES</p>
+      <h2>想把视觉智能，<br>带到更真实的世界。</h2>
+      <a href="mailto:siqi_song@outlook.com">siqi_song@outlook.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <p>© 2026 Siqi Song</p>
+    <p>Shanghai · Suzhou · China</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
